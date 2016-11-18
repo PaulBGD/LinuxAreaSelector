@@ -1,0 +1,12 @@
+{
+  "name": "linux-area-selector",
+  "version": "1.0.0",
+  "description": "A simple native area selector for Linux.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "rm -rf build/ && mkdir build && cd build && cmake .. && make && cd .."
+  },
+  "keywords": [],
+  "author": "Paul Sauve <paul@burngames.net>",
+  "license": "MIT"
+}
