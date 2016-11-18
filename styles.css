@@ -1,0 +1,11 @@
+GtkApplicationWindow, GtkBox {
+    background-color: transparent;
+}
+
+GtkApplicationWindow {
+    border: 2px dashed white;
+}
+
+GtkApplicationWindow > GtkBox {
+    border: 1px dashed black;
+}
