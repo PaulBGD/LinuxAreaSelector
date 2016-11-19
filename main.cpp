@@ -25,7 +25,9 @@ static void configure_event(GtkWindow *window, GdkEvent *event, ResizeData *data
     if (data->lastX == x && data->lastY == y && data->lastWidth == width && data->lastHeight == height) {
         return;
     }
-    printf("move:%d:%d:%d:%d\n", x, y, width, height);
+
+    cerr << "move:" << x << ":" << y << ":" << width << ":" << height << "\n";
+//    printf("move:%d:%d:%d:%d\n", x, y, width, height);
 
     data->lastX = x;
     data->lastY = y;
@@ -34,7 +36,7 @@ static void configure_event(GtkWindow *window, GdkEvent *event, ResizeData *data
 }
 
 static void lose_focus(GtkWindow *window, gpointer data) {
-    cout << "blur\n";
+    cerr << "blur\n";
 }
 
 static void mouse_down(GtkWindow *window, GdkEvent *event) {

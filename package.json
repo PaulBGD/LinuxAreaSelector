@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Paul Sauve <paul@burngames.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^0.5.0"
+  }
 }
