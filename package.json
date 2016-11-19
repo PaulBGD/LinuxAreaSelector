@@ -1,6 +1,6 @@
 {
   "name": "linux-area-selector",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A simple native area selector for Linux.",
   "main": "index.js",
   "scripts": {

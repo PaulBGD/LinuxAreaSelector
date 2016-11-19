@@ -36,5 +36,9 @@ exports.createSelector = function (x, y, width, height) {
         emitter.emit('end');
     });
 
+    emitter.kill = function (code) {
+        child.kill(code || 'SIGHUP');
+    };
+
     return emitter;
 };
