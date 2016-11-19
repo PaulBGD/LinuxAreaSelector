@@ -1,6 +1,6 @@
 {
   "name": "linux-area-selector",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple native area selector for Linux.",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,5 @@
   "author": "Paul Sauve <paul@burngames.net>",
   "license": "MIT",
   "dependencies": {
-    "execa": "^0.5.0"
   }
 }
